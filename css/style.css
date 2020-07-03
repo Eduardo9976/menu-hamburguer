@@ -111,7 +111,7 @@ input:checked ~ label.menu nav.navOptions {
 }
 
 #menu {
-  display: none;
+  display: initial;
 }
 
 
