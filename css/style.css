@@ -50,8 +50,8 @@ nav.navOptions  {
 
 div {
   position: fixed;
-  bottom: 2.5rem;
-  right: 1.25rem;
+  top: 10px;
+  left: 1.25rem;
   width: 4.0625rem;
   height: 4.0625rem;
   background: rgba(255, 255, 0, 0.6);
