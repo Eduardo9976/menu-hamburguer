@@ -21,7 +21,7 @@ label.menu {
   align-content: center;
   overflow: hidden;
   position: absolute;
-  z-index: 1000;
+  z-index: 999;
   
 }
 nav.navOptions  {
@@ -61,6 +61,7 @@ div {
   justify-content: center;
   align-items: center;
   transition: .4s ease;
+  z-index: 1000;
 }
 input:checked ~ label.menu div {
   transform: rotate(50deg);
@@ -82,12 +83,14 @@ span::before {
   content: '';  
   position: absolute;
   bottom: 0.625rem;
+  z-index: 1002;
 }
 span::after {
   content: '';
   position: absolute;
   top: 0.625rem;
   transition: .4s ease;
+  z-index: 1001;
 }
 
 input:checked ~ label.menu span::before  {
@@ -111,7 +114,7 @@ input:checked ~ label.menu nav.navOptions {
 }
 
 #menu {
-  display: initial;
+  display: none;
 }
 
 
